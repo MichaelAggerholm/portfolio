@@ -78,7 +78,6 @@
 
 .form-control:focus {
   color: #000000;
-  background-color: #fbae16;
   border-color: initial;
   outline: 0;
   box-shadow: none;
