@@ -213,7 +213,7 @@ h5 {
 }
 
 /*Media query for large devices*/
-@media only screen and (max-width: 1200px) and (min-width: 992px) {
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
     .aboutMeHeading {
         margin-top: 60px;
     }
@@ -235,7 +235,7 @@ h5 {
 }
 
 /*Media query for medium devices*/
-@media only screen and (max-width: 992px) and (min-width: 768px) {
+@media only screen and (max-width: 991px) and (min-width: 768px) {
     #brand {
         font-size: 23px;
     }
@@ -274,7 +274,7 @@ h5 {
 }
 
 /*Media query for small devices*/
-@media only screen and (max-width: 768px) and (min-width: 576px) {
+@media only screen and (max-width: 767px) and (min-width: 576px) {
     #brand {
         font-size: 30px;
     }
