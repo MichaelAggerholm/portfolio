@@ -54,10 +54,6 @@
   margin-right: 104px;
 }
 
-.form-control:hover {
-  border-color: white;
-}
-
 .form-control {
   display: block;
   width: 80%;
