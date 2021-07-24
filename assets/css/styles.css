@@ -84,13 +84,13 @@ h5 {
 }
 
 .skillsDiv {
-    padding: 0 250px;
+    padding: 0 75px;
     margin: -170px 0 0 0;
     height: 750px;
 }
 
 .card-group {
-    width: 1057px;
+    max-width: 1050px;
 }
 
 .card {
@@ -212,3 +212,215 @@ h5 {
     color: rgb(255,255,255);
 }
 
+/*Media query for large devices*/
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .aboutMeHeading {
+        margin-top: 60px;
+    }
+    .card-body {
+        height: 800px;
+    }
+    .card-body img {
+        display: flex;
+    }
+    .recentWorkHeading {
+        margin-top: 150px;
+    }
+    .RecentWorkDiv {
+        height: 750px;
+    }
+    .skillsDiv {
+        padding: 0 70px;
+    }
+}
+
+/*Media query for medium devices*/
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    #brand {
+        font-size: 23px;
+    }
+    #navcol-1 a{
+        font-size: 18px;
+
+    }
+    .navigation-clean.navbar .navbar-nav .nav-link {
+        padding-left: 0;
+    }
+    .aboutMeHeading {
+        margin-top: 70px;
+    }
+    .skillsDiv{
+        padding: 0 25px;
+    }
+    .card-body img {
+        display: flex;
+    }
+    .card-body {
+        height: 800px;
+    }
+    .recentWorkHeading {
+        margin-top: 150px;
+    }
+    .RecentWorkDiv {
+        height: 750px;
+    }
+    .contactContainer form {
+        width: 750px;
+        margin-left: 145px;
+    }
+    .aboutMeDiv {
+        height: 550px;
+    }
+}
+
+/*Media query for small devices*/
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    #brand {
+        font-size: 30px;
+    }
+    #navcol-1 {
+        background-color: white;
+    }
+    h1 {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    .subHeading {
+        font-size: 16px;
+    }
+    .welcomeImage {
+        margin-top: -150px;
+    }
+    .aboutMeHeading {
+        margin-top: 60px;
+        font-size: 30px;
+    }
+    .aboutMeParagraph {
+        font-size: 16px;
+    }
+    .aboutMeDiv {
+        height: 650px;
+    }
+    .skillsDiv {
+        padding: 0 25px;
+    }
+    .card-group {
+        flex-direction: column;
+    }
+    .card-body img {
+        display: flex;
+    }
+    .skillsDiv {
+        height: 1700px;
+    }
+    .card-group .card {
+        margin:0 25px 40px 25px !important;
+    }
+    .text-center.border-primary.shadow-sm.d-flex.d-xl-flex.flex-column.justify-content-xl-center {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+    }
+    .RecentWorkDiv {
+        height: 1000px;
+        margin: 0;
+    }
+    .recentWorkHeading {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .RecentWorkDiv .card {
+        max-width: 470px;
+        display: flex;
+        align-items: center
+    }
+    .RecentWorkDiv .card:first-child {
+        margin-bottom: 30px;
+    }
+    .RecentWorkDiv .container {
+        flex-direction: column !important;
+        margin: 30px 10px 0 10px;
+    }
+    .contactContainer form {
+        padding-top: 0;
+        margin: auto;
+        width: 600px;
+    }
+    #button-c-c {
+        margin-right: 120px;
+    }
+}
+
+/*Media query for extra small devices*/
+@media only screen and (max-width: 575px) {
+    #brand {
+        font-size: 30px;
+    }
+    #navcol-1 {
+        background-color: white;
+    }
+    h1 {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    .subHeading {
+        font-size: 16px;
+    }
+    .welcomeImage {
+        margin-top: -150px;
+    }
+    .aboutMeHeading {
+        margin-top: 60px;
+        font-size: 30px;
+    }
+    .aboutMeParagraph {
+        font-size: 16px;
+    }
+    .aboutMeDiv {
+        height: 650px;
+    }
+    .skillsDiv {
+        padding: 0 25px;
+    }
+    .card-group {
+        flex-direction: column;
+    }
+    .card-body img {
+        display: flex;
+    }
+    .skillsDiv {
+        height: 1700px;
+    }
+    .card-group .card {
+        margin:0 25px 40px 25px !important;
+    }
+    .text-center.border-primary.shadow-sm.d-flex.d-xl-flex.flex-column.justify-content-xl-center {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+    }
+    .RecentWorkDiv {
+        height: 1000px;
+        margin: 0;
+    }
+    .recentWorkHeading {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .RecentWorkDiv .card {
+        max-width: 470px;
+        display: flex;
+        align-items: center
+    }
+    .RecentWorkDiv .card:first-child {
+        margin-bottom: 30px;
+    }
+    .RecentWorkDiv .container {
+        flex-direction: column !important;
+        margin: 30px 10px 0 10px;
+    }
+    .contactContainer form {
+        padding-top: 0;
+        margin: auto;
+        width: 600px;
+    }
+    #button-c-c {
+        margin-right: 120px;
+    }
+}
