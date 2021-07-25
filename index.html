@@ -1,157 +1,207 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Michael Aggerholm</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Capriola">
-    <link rel="stylesheet" href="assets/css/Contact-form.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
-    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Michael Aggerholm</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Capriola">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
-
 <body>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
-        <div class="container">
-            <a class="navbar-brand" href="#" id="brand"><span class="blueColor navBrandSpan">M</span>ichael<span class="blueColor">&nbsp;A</span>ggerholm</a>
-            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" >Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" >Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" >About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" >Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <h1 class="text-center">Just another Web Developer</h1>
-    <h2 class="text-center subHeading">Creating websites and web applications, and I love what I do.</h2>
-    <div class="text-center welcomeDiv">
-        <img class="jello animated welcomeImage" alt="Welcome to my website image" src="assets/img/d46ec6a4-185c-4bb2-84e1-0e66f4b9f92d-e4a3e396-4b46-46fd-a264-0546f537cf68-v1.png">
-    </div>
-    <div class="text-center border-primary shadow d-flex d-xl-flex flex-column justify-content-xl-center aboutMeDiv">
-        <h2 class="text-center aboutMeHeading" data-aos="fade-down-right" data-aos-duration="200" data-aos-delay="150" data-aos-once="true">Hi, I'm Michael. Nice to meet you.</h2>
-        <p class="aboutMeParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,<br>molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum<br>numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium<br>optio,
-            eaque rerum! Provident similique accusantium nemo autem. Veritatis<br>obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam<br>nihil, eveniet aliquid culpa officia aut!<br><br></p>
-    </div>
-    <div class="text-left d-xl-flex justify-content-xl-center skillsDiv" data-aos="fade-up" data-aos-duration="250" data-aos-delay="250" data-aos-once="true">
-        <div class="card-group">
-            <div class="card border rounded shadow-sm">
-                <div class="card-body">
-                    <img class="d-xl-flex mx-auto justify-content-xl-center" alt="Frontend image icon" src="assets/img/iconOne.svg">
-                    <h4 class="text-center card-title">Frontend</h4>
-                    <p class="text-center card-text">I value simple content structure, clean design patterns, and thoughtful interactions.<br></p>
-                    <h5 class="text-center">Heading:</h5>
-                    <p class="text-center card-text">UX, UI, Web, Mobile</p>
-                    <h5 class="text-center">Heading:</h5>
-                    <p class="text-center card-text">Github<br>Bootstrap<br>Terminal<br>noget<br>tredje<br><br></p>
-                </div>
-            </div>
-            <div class="card border rounded shadow-sm">
-                <div class="card-body">
-                    <img class="d-xl-flex mx-auto justify-content-xl-center" alt="Backend image icon" src="assets/img/iconTwo.svg">
-                    <h4 class="text-center card-title">Backend</h4>
-                    <p class="text-center card-text">I like to code things from scratch, and enjoy bringing ideas to life in the browser.<br></p>
-                    <h5 class="text-center">Heading:</h5>
-                    <p class="text-center card-text">HTML, CSS, Sass, Less</p>
-                    <h5 class="text-center">Heading:</h5>
-                    <p class="text-center card-text">Testing<br>Debug<br>Faceit<br>Keeper<br>noget<br>fjerde</p>
-                </div>
-            </div>
-            <div class="card border rounded shadow-sm">
-                <div class="card-body">
-                    <img class="d-xl-flex mx-auto align-items-xl-center" alt="Experience image icon" src="assets/img/iconThree.svg">
-                    <h4 class="text-center card-title">Experience</h4>
-                    <p class="text-center card-text">I genuinely care about people, and love helping fellow designers work on their craft.<br></p>
-                    <h5 class="text-center">Heading:</h5>
-                    <p class="text-center card-text">Fullstack web dev</p>
-                    <h5 class="text-center">Heading:</h5>
-                    <p class="text-center card-text">5 years experience<br>Earlier workplace<br>current workplace<br>5 certificates<br><br></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="text-center border-primary shadow-sm d-flex d-xl-flex flex-column justify-content-xl-center RecentWorkDiv">
-        <h2 class="text-center recentWorkHeading">My recent work</h2>
-        <p class="">Here are a some of my recent projects. Want to see more?</p>
-        <div class="container d-flex flex-row">
-            <div class="card shadow" data-aos="fade-right" data-aos-duration="250" data-aos-delay="250" data-aos-once="true">
-                <div class="card-body">
-                    <h4 class="card-title">JavaScript</h4>
-                    <a class="card-link" href="#">Ping pong scoreboard</a>
-                </div>
-            </div>
-            <div class="card shadow" data-aos="fade-left" data-aos-duration="250" data-aos-delay="250" data-aos-once="true">
-                <div class="card-body">
-                    <h4 class="card-title">PHP</h4>
-                    <a class="card-link" href="#">Content Management System</a>
-                </div>
-            </div>
-        </div>
-        <div class="container d-flex flex-row">
-            <div class="card shadow" data-aos="fade-right" data-aos-duration="300" data-aos-delay="300" data-aos-once="true">
-                <div class="card-body">
-                    <h4 class="card-title">C#</h4>
-                    <a class="card-link" href="#">Multithreading</a><br>
-                    <a class="card-link" href="#">Inventory Management System</a>
-                </div>
-            </div>
-            <div class="card shadow" data-aos="fade-left" data-aos-duration="300" data-aos-delay="300" data-aos-once="true">
-                <div class="card-body">
-                    <h4 class="card-title">Ect.</h4>
-                    <a class="card-link" href="#">ITIL Service Management</a><br>
-                    <a class="card-link" href="#">Website Optimization / SEO</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="contactContainer container d-xl-flex justify-content-xl-center">
-        <div class="contactWidth col-lg-6 d-flex flex-column justify-content-center align-items-center align-content-center align-self-center">
-            <h2 class="d-xl-flex justify-content-xl-center" id="tittle-c">Contact me</h2>
-            <form>
-                <div class="form-group">
-                    <input class="form-control d-xl-flex justify-content-xl-center" type="text" placeholder="Name">
-                </div>
-                <div class="form-group">
-                    <input class="form-control" type="email" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <input class="form-control" type="tel" placeholder="Telephone">
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" placeholder="Message"></textarea>
-                </div>
-                <div id="button-c-c">
-                    <button class="btn btn-primary float-right" data-bs-hover-animate="pulse" id="button-c" type="button">Submit</button>
-                </div>
-            </form>
-        </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/smart-forms.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-</body>
+  <header>
+    <div class="container">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#"><span>M</span>ichael&nbsp;<span>A</span>ggerholm</a>
 
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item">Home</a>
+                <a class="navbar-item">About</a>
+                <a class="navbar-item">Skills</a>
+                <a class="navbar-item">Portfolio</a>
+                <a class="navbar-item">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <content>
+    <HomePageSection>
+      <div class="textHolder">
+        <h1>Just another Web Developer</h1>
+        <p>Creating websites and web applications, and I love what I do.</p>
+      </div>
+      <img src="assets/img/welcome_bitmoji.png" alt="Welcome image of me as an bitmoji">
+    </HomePageSection>
+
+    <aboutMeSection>
+      <div class="section">
+        <h2>About me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+          numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+          optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+          obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+          nihil, eveniet aliquid culpa officia aut!</p>
+      </div>
+    </aboutMeSection>
+
+    <skillsSection>
+      <div class="section">
+        <div class="columns">
+            <div class="card column is-one-third">
+              <div class="card-content">
+                <div class="content">
+                  <img src="assets/img/frontendIcon.svg" alt="Frontend icon in skills section">
+                  <h3>Frontend</h3>
+                  <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                  <h4>Heading:</h4>
+                  <p>UX, UI, Web, Mobile</p>
+                  <h4>Heading:</h4>
+                  <p>Github<br>
+                    Bootstrap<br>
+                    Terminal<br>
+                    noget<br>
+                    tredje<br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          <div class="card column is-one-third">
+            <div class="card-content">
+              <div class="content">
+                <img src="assets/img/backendIcon.svg" alt="Frontend icon in skills section">
+                <h3>Backend</h3>
+                <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                <h4>Heading:</h4>
+                <p>HTML, CSS, Sass, Less</p>
+                <h4>Heading:</h4>
+                <p>Testing<br>
+                  Debug<br>
+                  Faceit<br>
+                  Keeper<br>
+                  noget<br>
+                  fjerde<br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card column is-one-third">
+            <div class="card-content">
+              <div class="content">
+                <img src="assets/img/experienceIcon.svg" alt="Frontend icon in skills section">
+                <h3>Experience</h3>
+                <p>I genuinely care about people, and love helping fellow designers work on their craft.</p>
+                <h4>Heading:</h4>
+                <p>Fullstack web dev</p>
+                <h4>Heading:</h4>
+                <p>5 years experience<br>
+                  Earlier workplace<br>
+                  current workplace<br>
+                  5 certificates<br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </skillsSection>
+
+    <portfolioSection>
+      <div class="section">
+        <h2>Portfolio</h2>
+        <p>Here are a some of my recent projects. Want to see more?</p>
+        <div class="columns">
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                <h3>Frontend</h3>
+                <a href="#">Test tekst about a project</a>
+                <a href="#">Test tekst about a project</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                <h3>Frontend</h3>
+                <a href="#">Test tekst about a project</a>
+                <a href="#">Test tekst about a project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                <h3>Frontend</h3>
+                <a href="#">Test tekst about a project</a>
+                <a href="#">Test tekst about a project</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                <h3>Frontend</h3>
+                <a href="#">Test tekst about a project</a>
+                <a href="#">Test tekst about a project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </portfolioSection>
+
+    <contactSection>
+      <h2>Contact</h2>
+      <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Your full name">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Telephone</label>
+        <div class="control">
+          <input class="input" type="tel" placeholder="Telephone number">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control">
+          <input class="input" type="email" placeholder="Email address">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Your message..."></textarea>
+        </div>
+      </div>
+
+      <button class="button is-link">Submit</button>
+    </contactSection>
+  </content>
+
+  <script src="assets/js/app.js"></script>
+</body>
 </html>
