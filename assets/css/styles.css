@@ -350,7 +350,7 @@ h5 {
 }
 
 /*Media query for extra small devices*/
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 575px) and (min-width: 351px) {
     #brand {
         font-size: 30px;
     }
@@ -365,17 +365,20 @@ h5 {
         font-size: 16px;
     }
     .welcomeImage {
-        margin-top: -150px;
+        margin: auto;
+        width: 300px;
+        padding: 0;
     }
     .aboutMeHeading {
         margin-top: 60px;
-        font-size: 30px;
+        font-size: 28px;
     }
     .aboutMeParagraph {
         font-size: 16px;
     }
     .aboutMeDiv {
         height: 650px;
+        padding: 0 20px;
     }
     .skillsDiv {
         padding: 0 25px;
@@ -404,7 +407,7 @@ h5 {
         margin-top: 40px;
     }
     .RecentWorkDiv .card {
-        max-width: 470px;
+        width: 420px;
         display: flex;
         align-items: center
     }
@@ -417,10 +420,29 @@ h5 {
     }
     .contactContainer form {
         padding-top: 0;
-        margin: auto;
+        margin: 0;
         width: 600px;
+    }
+    form {
+        max-width: 500px;
+        padding: 0;
+    }
+    input {
+        padding: 0;
+    }
+    .form-control {
+        padding: 0;
+    }
+    .form-group {
+        max-width: 550px;
+        padding: 0;
     }
     #button-c-c {
         margin-right: 120px;
     }
+}
+
+/*Media query for extra small devices*/
+@media only screen and (max-width: 575px) {
+
 }
