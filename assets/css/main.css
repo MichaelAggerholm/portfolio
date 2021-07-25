@@ -202,10 +202,21 @@ contactSection button {
 }
 
 @media only screen and (max-width: 1366px) {
-    skillsSection, portfoliosection, contactsection {
-        height: 90vh;
-    }
     aboutmesection {
+        height: 50vh;
+    }
+    homepagesection .textHolder {
+        display: flex;
+        flex-direction: column;
+        margin: -200px 0;
+        flex-wrap: nowrap;
+    }
+    skillsSection, portfolioSection {
+         height: 70vh;
+         flex-direction: row;
+         align-items: center;
+     }
+    contactsection {
         height: 70vh;
     }
 }
