@@ -318,6 +318,65 @@ contactSection button {
     }
 }
 
+@media only screen and (max-width: 810px) {
+    h1, h2 {
+        font-size: 2.2rem;
+    }
+    p, a {
+        font-size: 1.2rem;
+    }
+    .navbar-brand .navbar-item {
+        font-size: 2rem;
+    }
+    homepagesection {
+        height: 90vh;
+    }
+    homepagesection img {
+        margin-left: 10%;
+    }
+    homepagesection .textHolder {
+        display: flex;
+        flex-direction: column;
+        margin: -200px 0;
+        flex-wrap: nowrap;
+    }
+    aboutmeSection {
+        height: 55vh;
+    }
+    skillsSection {
+        height: 175vh;
+        flex-direction: row;
+        align-items: center;
+    }
+    skillsSection .card {
+        margin: 5% 1%;
+    }
+    portfolioSection {
+        height: 105vh;
+    }
+    portfolioSection .card-content {
+        margin-bottom: 10%;
+    }
+    portfolioSection .columns {
+        margin: 0;
+    }
+    .columns:not(:last-child) {
+        margin-bottom: 0;
+    }
+    portfolioSection .card {
+        width: 60vw;
+    }
+    portfolioSection p {
+        margin-bottom: 10%;
+    }
+    contactsection {
+        height: 70vh;
+    }
+    contactSection input, textarea {
+        width: 70vw !important;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     h1, h2 {
         font-size: 2.2rem;
