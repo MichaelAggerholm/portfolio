@@ -198,24 +198,93 @@ contactSection button {
     background-color: var(--main-blue-color) !important;
 }
 
-@media only screen and (min-width: 1920px) {
-    body {
-        background-color: red;
+@media only screen and (max-width: 2800px) {
+    h1, h2 {
+        font-size: 3.7rem;
+    }
+    p, a {
+        font-size: 2.1rem;
+    }
+    homepageSection .textHolder {
+        margin-bottom: -30%;
+    }
+    .navbar-brand .navbar-item {
+        font-size: 2.2rem;
+    }
+    aboutMeSection {
+        height: 45vh;
+    }
+    skillsSection, portfolioSection {
+        height: 85vh;
+    }
+    .content h3 {
+        font-size: 3em;
+    }
+    .content h4 {
+        font-size: 2em;
+    }
+    .label {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 2500px) {
+    h1, h2 {
+        font-size: 3.2rem;
+    }
+    p, a {
+        font-size: 1.8rem;
+    }
+    .content h3 {
+        font-size: 2.2em;
+    }
+    .content h4 {
+        font-size: 1.8em;
+    }
+    .label {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 2200px) {
+    h1, h2 {
+        font-size: 3rem;
+    }
+    p, a {
+        font-size: 1.6rem;
+    }
+    .content h3 {
+        font-size: 2em;
+    }
+    .content h4 {
+        font-size: 1.6em;
+    }
+    .label {
+        font-size: 1.2rem;
     }
 }
 
 @media only screen and (max-width: 1920px) {
     h1, h2 {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
     p, a {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     homepageSection .textHolder {
         margin-bottom: -40%;
     }
     skillsSection {
         height: 75vh;
+    }
+    .content h3 {
+        font-size: 1.7em;
+    }
+    .content h4 {
+        font-size: 1.4em;
+    }
+    .label {
+        font-size: 1rem;
     }
 }
 
