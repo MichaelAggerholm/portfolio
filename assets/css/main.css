@@ -297,6 +297,27 @@ contactSection button {
     }
 }
 
+@media only screen and (max-width: 962px) {
+    homepageSection {
+        height: 88vh;
+    }
+    homepageSection .textHolder {
+        margin-bottom: -67%;
+    }
+    aboutmesection {
+        height: 48vh;
+    }
+    skillsSection {
+        height: 105vh;
+    }
+    portfoliosection {
+        height: 90vh;
+    }
+    contactsection {
+        height: 95vh;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     h1, h2 {
         font-size: 2.2rem;
@@ -361,24 +382,27 @@ contactSection button {
         font-size: 1.6rem;
     }
     p, a {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
     }
     homepagesection .textHolder {
         margin: -100px 0;
-    }
-    homepagesection {
-        text-align: center;
     }
     HomePageSection img {
         margin-top: 60%;
         margin-left: -8%;
         width: 23rem;
     }
+    aboutmeSection {
+        height: 71vh;
+    }
+    skillsSection {
+        height: 231vh;
+    }
     portfolioSection {
-        height: 95vh;
+        height: 117vh;
     }
     contactsection {
-        height: 75vh;
+        height: 70vh;
     }
     portfolioSection .card {
         width: 80vw;
@@ -386,29 +410,26 @@ contactSection button {
 }
 
 @media only screen and (max-width: 375px) {
-    h1, h2 {
-        font-size: 1.5rem;
-    }
     p, a {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     homepagesection {
-        height: 86vh;
+        height: 89vh;
     }
     homepagesection .textHolder {
-        margin: -130px 0;
+        margin: -135px 0;
     }
     aboutmeSection {
-        height: 70vh;
+        height: 80vh;
     }
     skillsSection {
-        height: 220vh;
+        height: 255vh;
     }
     skillsSection .card {
         margin: 10% 1%;
     }
     portfolioSection {
-        height: 120vh;
+        height: 130vh;
     }
     contactsection {
         height: 95vh;
@@ -416,8 +437,17 @@ contactSection button {
 }
 
 @media only screen and (max-width: 360px) {
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+    .navbar-brand .navbar-item {
+        font-size: 1.5rem;
+    }
+    aboutmeSection {
+        height: 90vh;
+    }
     skillsSection {
-        height: 230vh;
+        height: 270vh;
     }
     portfolioSection {
         height: 130vh;
