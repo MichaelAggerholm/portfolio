@@ -569,19 +569,22 @@ contactSection button {
         width: 23rem;
     }
     aboutmeSection {
-        height: 71vh;
+        height: 80vh;
     }
     skillsSection {
-        height: 231vh;
+        height: 250vh;
     }
     portfolioSection {
-        height: 117vh;
+        height: 130vh;
     }
     contactsection {
-        height: 70vh;
+        height: 80vh;
     }
     portfolioSection .card {
         width: 80vw;
+    }
+    contactSection input, textarea {
+        width: 80vw !important;
     }
 }
 
