@@ -288,7 +288,25 @@ contactSection button {
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    aboutmesection {
+        height: 45vh;
+    }
+    portfoliosection, contactsection {
+        height: 80vh;
+    }
+}
+
 @media only screen and (max-width: 768px) {
+    h1, h2 {
+        font-size: 2.2rem;
+    }
+    p, a {
+        font-size: 1.2rem;
+    }
+    .navbar-brand .navbar-item {
+        font-size: 2rem;
+    }
     homepagesection {
         height: 90vh;
     }
@@ -302,10 +320,10 @@ contactSection button {
         flex-wrap: nowrap;
     }
     aboutmeSection {
-        height: 60vh;
+        height: 55vh;
     }
     skillsSection {
-        height: 170vh;
+        height: 175vh;
         flex-direction: row;
         align-items: center;
     }
@@ -313,7 +331,7 @@ contactSection button {
         margin: 5% 1%;
     }
     portfolioSection {
-        height: 100vh;
+        height: 105vh;
     }
     portfolioSection .card-content {
         margin-bottom: 10%;
@@ -332,6 +350,9 @@ contactSection button {
     }
     contactsection {
         height: 70vh;
+    }
+    contactSection input, textarea {
+        width: 70vw !important;
     }
 }
 
