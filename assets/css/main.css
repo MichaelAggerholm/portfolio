@@ -211,7 +211,7 @@ contactSection button {
     homepagesection .textHolder {
         display: flex;
         flex-direction: column;
-        margin: -200px 0;
+        margin-bottom: -50%;
         flex-wrap: nowrap;
     }
     skillsSection, portfolioSection {
