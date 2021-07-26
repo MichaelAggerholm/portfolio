@@ -60,6 +60,9 @@ HomePageSection img {
     margin-left: 15%;
     width: 35rem;
 }
+homepageSection .textHolder {
+    text-align: center;
+}
 
 /* About me page CSS */
 aboutMeSection {
@@ -195,32 +198,54 @@ contactSection button {
     background-color: var(--main-blue-color) !important;
 }
 
+@media only screen and (max-width: 1920px) {
+    h1, h2 {
+        font-size: 3rem;
+    }
+    p, a {
+        font-size: 1.5rem;
+    }
+    homepageSection .textHolder {
+        margin-bottom: -40%;
+    }
+    skillsSection {
+        height: 70vh;
+    }
+}
+
 @media only screen and (max-width: 1600px) {
     skillsSection, portfoliosection, contactsection {
-        height: 80vh;
+        height: 90vh!important;
     }
     aboutmesection {
         height: 60vh;
     }
+    homepageSection .textHolder {
+        margin-bottom: -50%;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    homepageSection .textHolder {
+        margin-bottom: -55%!important;
+    }
 }
 
 @media only screen and (max-width: 1366px) {
-    aboutmesection {
-        height: 50vh;
+    homepageSection .textHolder {
+        margin-bottom: -65%;
     }
-    homepagesection .textHolder {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: -50%;
-        flex-wrap: nowrap;
+    h1, h2 {
+        font-size: 2.5rem;
     }
-    skillsSection, portfolioSection {
-         height: 70vh;
-         flex-direction: row;
-         align-items: center;
-     }
+    p, a {
+        font-size: 1rem;
+    }
+    /*aboutmesection {*/
+    /*    height: 50vh;*/
+    /*}*/
     contactsection {
-        height: 70vh;
+        height: 80vh;
     }
 }
 
