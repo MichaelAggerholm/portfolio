@@ -620,12 +620,15 @@ contactSection button {
         font-size: 1.5rem;
     }
     aboutmeSection {
-        height: 90vh;
+        height: 100vh;
     }
     skillsSection {
-        height: 270vh;
+        height: 280vh;
     }
     portfolioSection {
-        height: 130vh;
+        height: 135vh;
+    }
+    contactsection {
+        height: 100vh;
     }
 }
