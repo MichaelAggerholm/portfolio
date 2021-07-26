@@ -1,0 +1,649 @@
+body {
+    font-family: Capriola, sans-serif;
+}
+:root {
+    /*--main-blue-color: rgb(92, 9, 243);*/
+    /*--main-blue-color: rgb(69, 29, 233);*/
+    --main-blue-color: rgb(60, 21, 210);
+    --main-black-color: #4a4a4a;
+    --main-white-color: #ffffff;
+}
+h1, h2 {
+    font-size: 2.5rem;
+}
+p, a {
+    font-size: 1.1rem;
+}
+
+/* Navbar CSS */
+.navbar-item, .navbar-link {
+    color: var(--main-white-color);
+}
+.navbar {
+    background-color: var(--main-blue-color);
+}
+.navbar-brand .navbar-item span {
+    color: var(--main-white-color);
+}
+.navbar-brand .navbar-item {
+    font-size: 1.8rem;
+}
+.navbar-brand a:hover {
+     color: var(--main-black-color);
+ }
+.navbar-menu a:hover {
+    color: var(--main-blue-color);
+    background-color: transparent;
+    border-bottom: 2px solid var(--main-blue-color);
+}
+.navbar-burger {
+    background-color: var(--main-blue-color);
+}
+.navbar {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+/* Content general CSS */
+content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+/* Home page CSS */
+HomePageSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 90vh;
+    width: 100%;
+    background-image: url("../img/971_new.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+HomePageSection h1 {
+    color: var(--main-black-color);
+}
+HomePageSection p {
+    color: var(--main-blue-color);
+}
+
+/* About me page CSS */
+aboutMeSection {
+    background-color: var(--main-blue-color);
+    color: var(--main-white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+aboutMeSection .section {
+    margin-top: -3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20%;
+    text-align: center;
+}
+aboutMeSection p {
+    margin-top: 1%;
+}
+
+/* skills page CSS */
+skillsSection {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+skillsSection .columns {
+     justify-content: space-around
+}
+skillsSection .section {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+}
+skillsSection .card {
+    margin: 0 1%;
+}
+skillsSection .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+skillsSection h4 {
+    color: var(--main-blue-color) !important;
+}
+
+/* portfolio page CSS */
+portfolioSection {
+    background-color: var(--main-blue-color);
+    color: var(--main-white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+    margin-top: 1%;
+}
+portfolioSection .section {
+    margin-top: -5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20%;
+    text-align: center;
+}
+portfolioSection p {
+    margin: 3% 0;
+}
+portfolioSection .section {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+portfolioSection .card {
+    margin: 1%;
+    width: 40vw;
+}
+portfolioSection .card-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+portfolioSection .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+portfolioSection .columns {
+    justify-content: center;
+    margin: 0 10%;
+}
+portfolioSection .column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+portfolioSection .card-content {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Contact page CSS */
+contactSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+}
+contactSection input, textarea {
+    width: 50vw !important;
+}
+contactSection button {
+    background-color: var(--main-blue-color) !important;
+}
+
+@media only screen and (max-width: 2800px) {
+    h1, h2 {
+        font-size: 3rem;
+    }
+    p, a {
+        font-size: 1.8rem;
+    }
+    .navbar-brand .navbar-item {
+        font-size: 2.2rem;
+    }
+    aboutMeSection {
+        height: 45vh;
+    }
+    skillsSection, portfolioSection {
+        height: 85vh;
+    }
+    .content h3 {
+        font-size: 3em;
+    }
+    .content h4 {
+        font-size: 2em;
+    }
+    .label {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 2500px) {
+    /*h1, h2 {*/
+    /*    font-size: 3.2rem;*/
+    /*}*/
+    /*p, a {*/
+    /*    font-size: 1.8rem;*/
+    /*}*/
+    .content h3 {
+        font-size: 2.2em;
+    }
+    .content h4 {
+        font-size: 1.8em;
+    }
+    .label {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 2200px) {
+    h1, h2 {
+        font-size: 3rem;
+    }
+    p, a {
+        font-size: 1.6rem;
+    }
+    .content h3 {
+        font-size: 2em;
+    }
+    .content h4 {
+        font-size: 1.6em;
+    }
+    .label {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    h1, h2 {
+        font-size: 2rem;
+    }
+    p, a {
+        font-size: 1.2rem;
+    }
+    skillsSection {
+        height: 75vh;
+    }
+    .content h3 {
+        font-size: 1.5em;
+    }
+    .content h4 {
+        font-size: 1.2em;
+    }
+    .label {
+        font-size: 1rem;
+    }
+    HomePageSection {
+        height: 50vh;
+    }
+    aboutmeSection {
+        height: 50vh;
+    }
+    .navbar-brand .navbar-item {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    h1, h2 {
+        font-size: 2.7rem;
+    }
+    p, a {
+        font-size: 1.3rem;
+    }
+    skillsSection, portfoliosection, contactsection {
+        height: 90vh;
+    }
+    aboutmesection {
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 1536px) {
+    h1, h2 {
+        font-size: 2.3rem;
+    }
+    p, a {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    h1, h2 {
+        font-size: 2.5rem;
+    }
+    p, a {
+        font-size: 1.1rem;
+    }
+    aboutmesection {
+        height: 53vh;
+    }
+    skillsSection, portfoliosection, contactsection {
+        height: 75vh;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    h1, h2 {
+        font-size: 2.2rem;
+    }
+    p, a {
+        font-size: 1rem;
+    }
+    skillsSection, portfoliosection, contactsection {
+        height: 85vh;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    h1, h2 {
+        font-size: 1.7rem;
+    }
+    p, a {
+        font-size: 1rem;
+    }
+    aboutmesection {
+        height: 50vh;
+    }
+    skillsSection, portfoliosection, contactsection {
+        height: 90vh;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    aboutmesection {
+        height: 45vh;
+    }
+    portfoliosection, contactsection {
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 962px) {
+    homepageSection {
+        height: 97vh;
+    }
+    aboutmesection {
+        height: 53vh;
+    }
+    skillsSection {
+        height: 105vh;
+    }
+    portfoliosection {
+        height: 90vh;
+    }
+    contactsection {
+        height: 95vh;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    h1, h2 {
+        font-size: 2.2rem;
+    }
+    p, a {
+        font-size: 1.2rem;
+    }
+    .navbar-brand .navbar-item {
+        font-size: 2rem;
+    }
+    homepagesection {
+        height: 90vh;
+    }
+    aboutmeSection {
+        height: 55vh;
+    }
+    skillsSection {
+        height: 90vh;
+        flex-direction: row;
+        align-items: center;
+    }
+    skillsSection .card {
+        margin: 5% 1%;
+    }
+    portfolioSection {
+        height: 70vh;
+    }
+    portfolioSection .card-content {
+        margin-bottom: 10%;
+    }
+    portfolioSection .columns {
+        margin: 0;
+    }
+    .columns:not(:last-child) {
+        margin-bottom: 0;
+    }
+    portfolioSection .card {
+        width: 60vw;
+    }
+    portfolioSection p {
+        margin-bottom: 10%;
+    }
+    contactsection {
+        height: 70vh;
+    }
+    contactSection input, textarea {
+        width: 70vw !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    h1, h2 {
+        font-size: 2.7rem;
+    }
+    p, a {
+        font-size: 1.4rem;
+    }
+    .navbar-brand .navbar-item {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1, h2 {
+        font-size: 2.2rem;
+    }
+    p, a {
+        font-size: 1.2rem;
+    }
+    .navbar-brand .navbar-item {
+        font-size: 2rem;
+    }
+    homepagesection {
+        height: 90vh;
+    }
+    aboutmeSection {
+        height: 55vh;
+    }
+    skillsSection {
+        height: 175vh;
+        flex-direction: row;
+        align-items: center;
+    }
+    skillsSection .card {
+        margin: 5% 1%;
+    }
+    portfolioSection {
+        height: 105vh;
+    }
+    portfolioSection .card-content {
+        margin-bottom: 10%;
+    }
+    portfolioSection .columns {
+         margin: 0;
+    }
+    .columns:not(:last-child) {
+         margin-bottom: 0;
+    }
+    portfolioSection .card {
+        width: 60vw;
+    }
+    portfolioSection p {
+        margin-bottom: 10%;
+    }
+    contactsection {
+        height: 70vh;
+    }
+    contactSection input, textarea {
+        width: 70vw !important;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    h1, h2 {
+        font-size: 2rem;
+    }
+    p, a {
+        font-size: 1.1rem;
+    }
+    .navbar-brand .navbar-item {
+        font-size: 1.7rem;
+    }
+    homepagesection {
+        height: 96vh;
+    }
+    aboutmeSection {
+        height: 53vh;
+    }
+    skillsSection {
+        height: 175vh;
+    }
+    portfolioSection {
+        height: 105vh;
+    }
+    portfolioSection .card {
+        width: 80vw;
+    }
+    contactsection {
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .navbar-brand .navbar-item {
+        font-size: 1.4rem;
+    }
+    aboutmeSection {
+        height: 72vh;
+    }
+    skillsSection {
+        height: 220vh;
+    }
+    portfolioSection {
+        height: 120vh;
+    }
+    contactsection {
+        height: 75vh;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    h1, h2 {
+        font-size: 1.6rem;
+    }
+    p, a {
+        font-size: 1.1rem;
+    }
+    aboutmeSection {
+        height: 80vh;
+    }
+    skillsSection {
+        height: 250vh;
+    }
+    portfolioSection {
+        height: 130vh;
+    }
+    contactsection {
+        height: 80vh;
+    }
+    portfolioSection .card {
+        width: 80vw;
+    }
+    contactSection input, textarea {
+        width: 80vw !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    p, a {
+        font-size: 1rem;
+    }
+    homepagesection {
+        height: 97vh;
+    }
+    aboutmeSection {
+        height: 80vh;
+    }
+    skillsSection {
+        height: 255vh;
+    }
+    skillsSection .card {
+        margin: 10% 1%;
+    }
+    portfolioSection {
+        height: 130vh;
+    }
+    contactsection {
+        height: 95vh;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+    .navbar-brand .navbar-item {
+        font-size: 1.3rem;
+    }
+    aboutmeSection {
+        height: 100vh;
+    }
+    skillsSection {
+        height: 280vh;
+    }
+    portfolioSection {
+        height: 135vh;
+    }
+    contactsection {
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+    .navbar-brand .navbar-item {
+        font-size: 1.5rem;
+    }
+    homepageSection {
+        height: 94vh;
+    }
+    aboutmeSection {
+        height: 80vh;
+    }
+    skillsSection {
+        height: 200vh;
+    }
+    portfolioSection {
+        height: 100vh;
+    }
+    contactsection {
+        height: 65vh;
+    }
+}

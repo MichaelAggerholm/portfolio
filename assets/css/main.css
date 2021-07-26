@@ -63,7 +63,7 @@ HomePageSection img {
     margin-left: 15%;
     width: 35rem;
 }
-homepageSection .textHolder {
+HomePageSection .textHolder {
     text-align: center;
 }
 
@@ -293,8 +293,8 @@ contactSection button {
         height: 96vh;
     }
     homepageSection img {
-        margin-left: 10%;
-        width: 28rem;
+        margin-left: 7%;
+        width: 35rem;
     }
     .navbar-brand .navbar-item {
         font-size: 1.5rem;
