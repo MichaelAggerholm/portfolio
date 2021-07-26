@@ -209,11 +209,17 @@ contactSection button {
         margin-bottom: -40%;
     }
     skillsSection {
-        height: 70vh;
+        height: 75vh;
     }
 }
 
 @media only screen and (max-width: 1600px) {
+    h1, h2 {
+        font-size: 2.7rem;
+    }
+    p, a {
+        font-size: 1.3rem;
+    }
     skillsSection, portfoliosection, contactsection {
         height: 90vh;
     }
@@ -231,21 +237,33 @@ contactSection button {
     }
 }
 
-@media only screen and (max-width: 1366px) {
-    homepageSection .textHolder {
-        margin-bottom: -65%;
-    }
+@media only screen and (max-width: 1440px) {
     h1, h2 {
         font-size: 2.5rem;
     }
     p, a {
+        font-size: 1.1rem;
+    }
+    aboutmesection {
+        height: 53vh;
+    }
+    skillsSection, portfoliosection, contactsection {
+        height: 75vh;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    homepageSection .textHolder {
+        margin-bottom: -61%;
+    }
+    h1, h2 {
+        font-size: 2.2rem;
+    }
+    p, a {
         font-size: 1rem;
     }
-    /*aboutmesection {*/
-    /*    height: 50vh;*/
-    /*}*/
-    contactsection {
-        height: 80vh;
+    skillsSection, portfoliosection, contactsection {
+        height: 85vh;
     }
 }
 
@@ -258,6 +276,12 @@ contactSection button {
     }
     aboutmesection {
         height: 50vh;
+    }
+    skillsSection {
+        height: 80vh;
+    }
+    portfoliosection, contactsection {
+        height: 70vh;
     }
 }
 
