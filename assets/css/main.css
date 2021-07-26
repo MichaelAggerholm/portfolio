@@ -203,13 +203,13 @@ contactSection button {
 
 @media only screen and (max-width: 2800px) {
     h1, h2 {
-        font-size: 3.7rem;
+        font-size: 3rem;
     }
     p, a {
-        font-size: 2.1rem;
+        font-size: 1.8rem;
     }
     homepageSection .textHolder {
-        margin-bottom: -30%;
+        margin-bottom: -40%;
     }
     .navbar-brand .navbar-item {
         font-size: 2.2rem;
@@ -232,12 +232,12 @@ contactSection button {
 }
 
 @media only screen and (max-width: 2500px) {
-    h1, h2 {
-        font-size: 3.2rem;
-    }
-    p, a {
-        font-size: 1.8rem;
-    }
+    /*h1, h2 {*/
+    /*    font-size: 3.2rem;*/
+    /*}*/
+    /*p, a {*/
+    /*    font-size: 1.8rem;*/
+    /*}*/
     .content h3 {
         font-size: 2.2em;
     }
@@ -269,25 +269,35 @@ contactSection button {
 
 @media only screen and (max-width: 1920px) {
     h1, h2 {
-        font-size: 2.8rem;
+        font-size: 2rem;
     }
     p, a {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     homepageSection .textHolder {
-        margin-bottom: -40%;
+        margin-bottom: -15%;
     }
     skillsSection {
         height: 75vh;
     }
     .content h3 {
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
     .content h4 {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     .label {
         font-size: 1rem;
+    }
+    HomePageSection {
+        height: 96vh;
+    }
+    homepageSection img {
+        margin-left: 10%;
+        width: 28rem;
+    }
+    .navbar-brand .navbar-item {
+        font-size: 1.5rem;
     }
 }
 
@@ -310,6 +320,12 @@ contactSection button {
 }
 
 @media only screen and (max-width: 1536px) {
+    h1, h2 {
+        font-size: 2.3rem;
+    }
+    p, a {
+        font-size: 1.1rem;
+    }
     homepageSection .textHolder {
         margin-bottom: -55%;
     }
@@ -332,7 +348,7 @@ contactSection button {
 
 @media only screen and (max-width: 1366px) {
     homepageSection .textHolder {
-        margin-bottom: -61%;
+        margin-bottom: -50%;
     }
     h1, h2 {
         font-size: 2.2rem;
@@ -377,13 +393,13 @@ contactSection button {
 
 @media only screen and (max-width: 962px) {
     homepageSection {
-        height: 88vh;
+        height: 97vh;
     }
     homepageSection .textHolder {
-        margin-bottom: -67%;
+        margin-bottom: -55%;
     }
     aboutmesection {
-        height: 48vh;
+        height: 53vh;
     }
     skillsSection {
         height: 105vh;
@@ -393,6 +409,9 @@ contactSection button {
     }
     contactsection {
         height: 95vh;
+    }
+    homepageSection img {
+        width: 20rem;
     }
 }
 
@@ -536,8 +555,11 @@ contactSection button {
     .navbar-brand .navbar-item {
         font-size: 1.7rem;
     }
+    homepagesection .textHolder {
+        margin: -120px 0;
+    }
     homepagesection {
-        height: 92vh;
+        height: 96vh;
     }
     aboutmeSection {
         height: 53vh;
@@ -553,6 +575,27 @@ contactSection button {
     }
     contactsection {
         height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .navbar-brand .navbar-item {
+        font-size: 1.4rem;
+    }
+    homepageSection img {
+        width: 23rem;
+    }
+    aboutmeSection {
+        height: 72vh;
+    }
+    skillsSection {
+        height: 220vh;
+    }
+    portfolioSection {
+        height: 120vh;
+    }
+    contactsection {
+        height: 75vh;
     }
 }
 
@@ -597,10 +640,10 @@ contactSection button {
         font-size: 1rem;
     }
     homepagesection {
-        height: 89vh;
+        height: 97vh;
     }
     homepagesection .textHolder {
-        margin: -135px 0;
+        margin: -190px 0;
     }
     aboutmeSection {
         height: 80vh;
@@ -624,7 +667,7 @@ contactSection button {
         font-size: 1.5rem;
     }
     .navbar-brand .navbar-item {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     aboutmeSection {
         height: 100vh;
@@ -637,5 +680,35 @@ contactSection button {
     }
     contactsection {
         height: 100vh;
+    }
+    homepagesection .textHolder {
+        margin: -220px 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+    .navbar-brand .navbar-item {
+        font-size: 1.5rem;
+    }
+    homepageSection {
+        height: 94vh;
+    }
+    aboutmeSection {
+        height: 80vh;
+    }
+    skillsSection {
+        height: 200vh;
+    }
+    portfolioSection {
+        height: 100vh;
+    }
+    contactsection {
+        height: 65vh;
+    }
+    homepagesection .textHolder {
+        margin: -50px 0;
     }
 }
