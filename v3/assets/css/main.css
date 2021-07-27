@@ -1,0 +1,160 @@
+/*font-family: 'Inconsolata', monospace;*/
+/*font-family: 'Nunito', sans-serif;*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2e2e2e;
+    letter-spacing: .01rem;
+    line-height: 1.75rem;
+    font-size: 100%;
+}
+:root {
+    --main-blue-color: #0096cc;;
+    --main-black-color: #4a4a4a;
+    --main-white-color: #ffffff;
+}
+
+.border-bottom {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0,0,0,.125);
+}
+
+.bg-splash-gray {
+    background-color: #f5f8fa;
+}
+
+.navbar {
+    font-weight: 400;
+}
+.navbar-brand {
+    font-size: 24px;
+}
+.navbar-menu {
+    font-size: 18px;
+}
+
+.section {
+    padding: 2rem;
+}
+.square-120 {
+    width: 120px;
+    height: 120px;
+}
+.bg-white {
+    background-color: #fff;
+}
+.circle {
+    border-radius: 50%;
+}
+.border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,.125);
+}
+img {
+    max-width: 100%;
+}
+.p1 {
+    padding: .5rem;
+}
+.border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,.125);
+}
+section img:hover {
+    border-color: rgba(0, 0, 0, 0.56);
+}
+.page-title {
+    font-size: 2.7rem;
+    font-weight: 400;
+}
+.mb1 {
+    margin-bottom: .5rem;
+}
+.mt0 {
+    margin-top: 0;
+}
+a, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.page-title a:hover {
+    text-decoration: none;
+    color: var(--main-blue-color)!important;
+}
+
+em {
+    font-style: italic;
+}
+.page-description {
+    margin: 0 15px;
+}
+h3, .h3 {
+    font-size: 1.3rem;
+}
+.gray, .mid-gray {
+    color: #aaa;
+}
+.regular {
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    max-width: 38em;
+}
+.container {
+    max-width: 64em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p3 {
+    padding: 2rem;
+}
+.block {
+    display: block;
+}
+main {
+    display: block;
+}
+.mxn2 {
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+@media (min-width: 40em) {
+    .sm-col-9 {
+        width: 75%;
+    }
+}
+.col {
+    float: left;
+    box-sizing: border-box;
+}
+.px2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.mb2 {
+    margin-bottom: 1rem;
+}
+p, dl, ol, ul {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

@@ -1,0 +1,24 @@
+/* General styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2e2e2e;
+}
+:root {
+    --main-blue-color: #0096cc;;
+    --main-black-color: #4a4a4a;
+    --main-white-color: #ffffff;
+}
+.border-bottom {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0,0,0,.125);
+}
+
+/* Navbar Styling */
+.navbar-brand{
+    font-size: 1.5rem;
+}
+.navbar {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
