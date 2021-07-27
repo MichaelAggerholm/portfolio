@@ -2,6 +2,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #2e2e2e;
+    letter-spacing: .01rem;
+    line-height: 1.75rem;
 }
 :root {
     --main-gray-color: #f5f8fa;
@@ -16,6 +18,11 @@ body {
 .bg-gray {
     background-color: var(--main-gray-color);
 }
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
 
 /* Navbar Styling */
 .navbar-brand{
@@ -25,11 +32,50 @@ body {
     font-size: 1.1rem;
     font-weight: 500;
 }
+.navbar-item:hover {
+    background-color: var(--main-gray-color)!important;
+}
 
 /* About me styling */
 #profilePicture {
-    height: 120px;
-    width: 120px;
+    height: 125px;
+    width: 125px;
     border-radius: 50%;
-    border: 1px solid lightgrey;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,.125);
+    padding: .5rem;
+}
+
+#profilePicture:hover {
+    border-color: rgba(0, 0, 0, 0.45);
+}
+
+.mainContainer {
+    max-width: 38em!important;
+}
+
+.socialMedia {
+    width: 120px;
+    color: #2e2e2e;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-bottom: 17px;
+}
+
+.socialMedia span {
+    font-size: 1rem;
+    margin-left: 7px;
+    margin-top: 2px;
+}
+
+.socialMedia i {
+    margin-bottom: 10px!important;
+}
+
+.projectsColumns {
+    border-bottom: 1px solid rgba(0,0,0,.125);
 }

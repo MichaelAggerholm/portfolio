@@ -5,7 +5,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Michael Aggerholm</title>
+
+    <!-- icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="8FE641C2-226C-4CAD-97BC-0AFF0CD39D8D" crossorigin="anonymous"></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
     <!-- styles -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -21,7 +25,7 @@
         <nav class="navbar is-white border-bottom" role="navigation" aria-label="main navigation">
             <div class="container">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="#">Thomase Martinsen</a>
+                    <a class="navbar-item" href="index.html">Michael Aggerholm</a>
 
                     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                         <span aria-hidden="true"></span>
@@ -32,8 +36,8 @@
 
                 <div id="navbarBasicExample" class="navbar-menu">
                     <div class="navbar-end">
-                        <a class="navbar-item">About me</a>
-                        <a class="navbar-item">Projects</a>
+                        <a href="index.html" class="navbar-item">About me</a>
+                        <a href="projects.html" class="navbar-item">Projects</a>
                         <a class="navbar-item">Experience</a>
                     </div>
                 </div>
@@ -41,12 +45,54 @@
         </nav>
     </header>
 
-    <section class="section has-text-centered bg-gray">
-        <img id="profilePicture" src="assets/img/profilePicture/19-tom-profile-picture.webp" alt="">
-        <h1 class="title">Thomase Martinsen</h1>
-        <h2 class="subtitle">
-            I create websites and web applications, and I love what I do.
-        </h2>
+    <section class="section has-text-centered bg-gray border-bottom">
+        <div class="container">
+            <a href="#">
+                <img id="profilePicture" src="assets/img/profilePicture/1625754652788.jpg" alt="Michael Aggerholm">
+            </a>
+            <h1 class="title">Michael Aggerholm</h1>
+            <h2 class="subtitle">
+                I create websites and web applications, and I love what I do.
+            </h2>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container mainContainer">
+            <div class="columns">
+                <div class="column is-four-fifths">
+                    <h3>About me</h3>
+                    <p>
+                        Yevgeniy (Jim) Brikman loves programming, writing, speaking, traveling, and lifting heavy things. He does not love talking about himself in the 3rd person. He is the co-founder of Gruntwork, a company that provides DevOps as a Service. He's also the author of two books published by O'Reilly Media: Hello, Startup and Terraform: Up & Running. Previously, he spent more than a decade building infrastructure and products that served hundreds of millions of users while working as a software engineer at LinkedIn, TripAdvisor, Cisco Systems, and Thomson Financial. For more info, check out his writing, speaking, projects, and photos.
+                    </p>
+                </div>
+                <div class="column is-one-fifth">
+                    <h3>Contact</h3>
+                    <div class="clearfix">
+                        <a href="#" target="_blank" class="socialMedia">
+                            <i class="fab fa-facebook-square fa-2x"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="#" target="_blank" class="socialMedia">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                            <span>Linkedin</span>
+                        </a>
+                        <a href="#" target="_blank" class="socialMedia">
+                            <i class="fab fa-instagram-square fa-2x"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="#" target="_blank" class="socialMedia">
+                            <i class="fab fa-github-square fa-2x"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="#" target="_blank" class="socialMedia">
+                            <i class="fas fa-envelope-square fa-2x"></i>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <script src="assets/js/app.js"></script>
