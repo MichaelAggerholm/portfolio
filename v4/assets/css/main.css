@@ -4,7 +4,7 @@ body {
     color: #2e2e2e;
 }
 :root {
-    --main-blue-color: #0096cc;;
+    --main-gray-color: #f5f8fa;
     --main-black-color: #4a4a4a;
     --main-white-color: #ffffff;
 }
@@ -12,6 +12,9 @@ body {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: rgba(0,0,0,.125);
+}
+.bg-gray {
+    background-color: var(--main-gray-color);
 }
 
 /* Navbar Styling */
@@ -21,4 +24,12 @@ body {
 .navbar {
     font-size: 1.1rem;
     font-weight: 500;
+}
+
+/* About me styling */
+#profilePicture {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
 }
